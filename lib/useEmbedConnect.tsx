@@ -148,7 +148,7 @@ export const useEmbedConnect = (props: UseEmbedConnectProps | undefined) => {
           return reject(error);
         };
 
-        const url = `${hostBaseUrl}/token/${sessionToken}`;
+        const url = `${hostBaseUrl}/session/${sessionToken}`;
         if (props?.flow === "popup" || (!props?.flow && !props?.redirectUrl)) {
           const websocket = new WebSocket(websocketBaseUrl);
           websocket.onmessage = (message: MessageEvent) => {
