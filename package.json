@@ -1,6 +1,6 @@
 {
-  "name": "@embedco/react",
-  "version": "0.1.4",
+  "name": "@embedhq/react",
+  "version": "0.1.5",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
